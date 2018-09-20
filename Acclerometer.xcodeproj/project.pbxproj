@@ -14,6 +14,10 @@
 		11AD742F2152CF46000FB64F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11AD742D2152CF46000FB64F /* LaunchScreen.storyboard */; };
 		11AD743A2152CF46000FB64F /* AcclerometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD74392152CF46000FB64F /* AcclerometerTests.swift */; };
 		11AD74452152CF47000FB64F /* AcclerometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD74442152CF47000FB64F /* AcclerometerUITests.swift */; };
+		11AD74592152CFFF000FB64F /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AD74572152CFFF000FB64F /* awa.png */; };
+		11AD745A2152CFFF000FB64F /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AD74582152CFFF000FB64F /* suiheiki.png */; };
+		11AD745C2152D165000FB64F /* MeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD745B2152D165000FB64F /* MeasureViewController.swift */; };
+		11AD745E2152D183000FB64F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AD745D2152D183000FB64F /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		11AD74402152CF47000FB64F /* AcclerometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcclerometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11AD74442152CF47000FB64F /* AcclerometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcclerometerUITests.swift; sourceTree = "<group>"; };
 		11AD74462152CF47000FB64F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11AD74572152CFFF000FB64F /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
+		11AD74582152CFFF000FB64F /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
+		11AD745B2152D165000FB64F /* MeasureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureViewController.swift; sourceTree = "<group>"; };
+		11AD745D2152D183000FB64F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,15 @@
 		11AD74232152CF42000FB64F /* Acclerometer */ = {
 			isa = PBXGroup;
 			children = (
+				11AD74562152CFFF000FB64F /* 13_Resource */,
 				11AD74242152CF42000FB64F /* AppDelegate.swift */,
 				11AD74262152CF42000FB64F /* ViewController.swift */,
 				11AD74282152CF42000FB64F /* Main.storyboard */,
 				11AD742B2152CF46000FB64F /* Assets.xcassets */,
 				11AD742D2152CF46000FB64F /* LaunchScreen.storyboard */,
 				11AD74302152CF46000FB64F /* Info.plist */,
+				11AD745B2152D165000FB64F /* MeasureViewController.swift */,
+				11AD745D2152D183000FB64F /* ResultViewController.swift */,
 			);
 			path = Acclerometer;
 			sourceTree = "<group>";
@@ -123,6 +134,15 @@
 				11AD74462152CF47000FB64F /* Info.plist */,
 			);
 			path = AcclerometerUITests;
+			sourceTree = "<group>";
+		};
+		11AD74562152CFFF000FB64F /* 13_Resource */ = {
+			isa = PBXGroup;
+			children = (
+				11AD74572152CFFF000FB64F /* awa.png */,
+				11AD74582152CFFF000FB64F /* suiheiki.png */,
+			);
+			path = 13_Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +251,9 @@
 			files = (
 				11AD742F2152CF46000FB64F /* LaunchScreen.storyboard in Resources */,
 				11AD742C2152CF46000FB64F /* Assets.xcassets in Resources */,
+				11AD745A2152CFFF000FB64F /* suiheiki.png in Resources */,
 				11AD742A2152CF42000FB64F /* Main.storyboard in Resources */,
+				11AD74592152CFFF000FB64F /* awa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11AD745C2152D165000FB64F /* MeasureViewController.swift in Sources */,
 				11AD74272152CF42000FB64F /* ViewController.swift in Sources */,
 				11AD74252152CF42000FB64F /* AppDelegate.swift in Sources */,
+				11AD745E2152D183000FB64F /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
